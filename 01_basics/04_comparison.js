@@ -1,0 +1,22 @@
+//console.log(2>1);
+//console.log(2<1);
+//console.log(2==1);
+//console.log(2>=1);
+//console.log(2<=1);
+//console.log(2!=1);
+
+//console.log("2" > 1);
+//console.log("02" > 1);
+//
+//console.log(null > 1);
+
+//console.log(null > 0);
+//console.log(null == 0);
+//console.log(null >= 0);   // comparison convert null to a number and then perform operation
+//
+//console.log(undefined == 0);
+//console.log(undefined >= 0);
+//console.log(undefined > 0);
+
+// ===
+console.log( "2" === 2);

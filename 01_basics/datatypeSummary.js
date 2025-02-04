@@ -28,3 +28,26 @@ let myObj = {
 const myFunction = function (){
     console.log('Hello World!!');
 }
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), heap(non primitive)
+
+let oneVariable = "ansh";
+let anotherVariable = oneVariable;
+anotherVariable = "code";
+
+console.log(anotherVariable);
+console.log(oneVariable);
+
+let userOne = {
+    email : "user@google.com",
+    pass : "1234556",
+}
+
+let userTwo = userOne;
+userTwo.email = "ansh@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
